@@ -1,0 +1,12 @@
+x= int(input("Enter number : "))
+y= int(input("Enter number : "))
+from math import *
+result=max(x,y)
+result1=min(x,y)
+result2=abs(-4.23)
+result3=sqrt(x)
+result4=int(pow(x,y))
+result5=floor(4.5)
+result6=ceil(4.5)
+print(result , result1 ,result2 , result3, result4)
+print(result5, result6)
